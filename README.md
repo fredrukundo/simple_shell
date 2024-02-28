@@ -41,5 +41,5 @@ The project consists of a single header file `shell.h` that contains all the nec
 To use the simple shell, compile the source code and run the executable. The shell will provide a prompt where you can enter commands.
 
 ```bash
-$ make
-$ ./simple_shell
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+$ ./hsh
